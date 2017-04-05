@@ -25,8 +25,6 @@ function createWindow () {
  
   // 载入页面文件 index.html
   win.loadURL('file://' + __dirname + '/app/index.html')
-  
-  win.openDevTools();
 
   // 窗口关闭事件监听
   win.on('closed', () => {
