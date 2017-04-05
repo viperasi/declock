@@ -1,0 +1,19 @@
+{
+  "name": "declock",
+  "version": "1.0.0",
+  "description": "desktop clock",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "declock"
+  ],
+  "author": "viperasi@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.6.2"
+  },
+  "devDependencies": {}
+}
